@@ -1,0 +1,19 @@
+{
+  "name": "highlightjs-agda",
+  "version": "0.0.1",
+  "description": "Agda highlighting for highlight.js",
+  "main": "src/agda.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangjunwen/highlightjs-agda.git"
+  },
+  "keywords": [
+    "agda",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "Huang Jun Wen",
+  "license": "MIT",
+  "homepage": "https://github.com/huangjunwen/highlightjs-agda"
+}
