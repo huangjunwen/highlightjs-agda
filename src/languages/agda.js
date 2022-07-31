@@ -74,19 +74,19 @@ module.exports = function (hljs) {
       },
       {
         className: 'title', // xxx :
-        begin: /(?<=^\s*)(\S+)(?=\s*:)/
+        begin: /(?:^\s*)(\S+)(?=\s*:)/
       },
       {
         className: 'name', // data xxx :
-        begin: /(?<=^(data|record)\s+)\S+/
+        begin: /(?:^(data|record)\s+)\S+/
       },
       {
         className: 'operator',
-        begin: /(?<=^\s*|\s)(?:[=|:∀→λ\\?_]|->)(?=\s)/
+        begin: /(?:^\s*|\s)(?:[=|:∀→λ\\?_]|->)(?=\s)/
       },
       {
         className: 'operator',
-        begin: /(?<=^\s*|\s)λ(?=\{)/
+        begin: /(?:^\s*|\s)λ(?=\{)/
       },
       {
         className: 'punctuation',
